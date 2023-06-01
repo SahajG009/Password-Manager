@@ -3,9 +3,9 @@
 from cryptography.fernet import Fernet
 
 #generating the key
-def gen_key():
+#no need for key generation as we have it
+'''def gen_key():
     key = Fernet.generate_key()
     with open('key.key','wb') as kf:
-        kf.write(key)
+        kf.write(key)'''
 
-gen_key()
