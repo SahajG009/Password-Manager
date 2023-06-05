@@ -1,3 +1,5 @@
+# fernet instructions
+
 #using fernet module
 
 from cryptography.fernet import Fernet
