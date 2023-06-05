@@ -1,13 +1,9 @@
-**Password-Manager**
+# Password-Manager
 
-**____________________________________________________________________________________________________________________________________________________**
-
-**Fernet Encryption:**
+# Fernet Encryption:
 Fernet encryption is a symmetric key encryption algorithm, which means it uses the same key for both encryption and decryption processes. It is based on the AES (Advanced Encryption Standard) cipher and provides secure and efficient encryption. Fernet encryption ensures that the data remains confidential and can only be decrypted using the correct key.
 
-**____________________________________________________________________________________________________________________________________________________**
-
-**Features of the Password Manager:**
+# Features of the Password Manager:
 
 **1. Secure Password Storage:** The password manager allows users to securely store their passwords. When a password is added, it is encrypted using the Fernet algorithm before being stored.
 
@@ -19,9 +15,7 @@ Fernet encryption is a symmetric key encryption algorithm, which means it uses t
 
 **5. Error Handling:** The password manager incorporates robust error handling mechanisms to handle exceptions gracefully. It validates user input and provides appropriate error messages to ensure a smooth user experience.
 
-**____________________________________________________________________________________________________________________________________________________**
-
-**How it Works:**
+# How it Works:
 
 **1. Initialization:** The password manager prompts the user to set up a master password during the initial setup. This password is then used to generate the encryption key.
 
@@ -31,9 +25,7 @@ Fernet encryption is a symmetric key encryption algorithm, which means it uses t
 
 **4. Error Handling:** The password manager handles various scenarios, such as incorrect master password, invalid input, or file system errors, and provides appropriate error messages to guide the user.
 
-**____________________________________________________________________________________________________________________________________________________**
-
-**Security Considerations:**
+# Security Considerations:
 
 The password manager employs several security measures to ensure the confidentiality of the stored passwords:
 
